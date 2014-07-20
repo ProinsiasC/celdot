@@ -15,13 +15,9 @@ xftalpha 0.2
 override_utf8_locale yes
 
 TEXT
-${voffset 10}${freq_g cpu0} Ghz/${acpitemp}°C
-CPU1: ${cpu cpu0}%
-CPU2: ${cpu cpu1}%
-CPU3: ${cpu cpu2}%
-CPU4: ${cpu cpu3}%
+${freq_g cpu0} Ghz/${acpitemp}°C
+cpu1: ${cpu cpu0}%
 ${voffset 130}Root${alignr 290} / ${fs_size /}
-Storage ${alignr 290} / ${fs_size /home/gary/storage}
 Home${alignr 290} / ${fs_size /home}
 ${voffset 5}${goto 240}SWAP
 ${goto 240}RAM
