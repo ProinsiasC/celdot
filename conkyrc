@@ -1,7 +1,7 @@
 own_window yes
 own_window_type override 
 own_window_transparent yes
-minimum_size 275 1000
+minimum_size 275 500
 alignment tr
 draw_graph_borders no
 default_color 656698 
@@ -16,14 +16,12 @@ override_utf8_locale yes
 TEXT
 ${acpitemp}°C
 ${cpu cpu0}%
-${voffset 45}${goto 200}RAM
-Root${alignr 290} / ${fs_size /}${goto 200}SWAP
-Home${alignr 290} / ${fs_size /home}
-${voffset 70}${nodename}${kernel}
-${hr}
+${voffset 70}${goto 200}RAM
+Root${alignr 290} / 
+Home${alignr 290} / 
+${voffset 100}Kernel - ${kernel}
 ${voffset 50}Download ${downspeedgraph wlp0s11 30,150  -l  -t}
 ${voffset 5}Upload ${upspeedgraph wlp0s11 30,150 -l -t}
-${hr}
 ${voffset 15}${top name 1}${alignr 150}${top pid 1}
 ${top name 2}${alignr 150}${top pid 2}
 ${top name 3}${alignr 150}${top pid 3}

@@ -3,7 +3,6 @@ corner_r=35
 bg_colour=0x333333
 bg_alpha=0.2
 
-
 settings_table = {
     
     {
@@ -29,7 +28,7 @@ settings_table = {
         fg_colour=0x656698,
         fg_alpha=0.8,
         x=80, y=50,
-        radius=18,
+        radius=30,
         thickness=10,
         start_angle=0,
         end_angle=240
@@ -42,7 +41,7 @@ settings_table = {
         bg_alpha=0.8,
         fg_colour=0x656698,
         fg_alpha=0.8,
-        x=185, y=60,
+        x=185, y=80,
         radius=30,
         thickness=15,
         start_angle=180,
@@ -56,7 +55,7 @@ settings_table = {
         bg_alpha=0.4,
         fg_colour=0x656698,
         fg_alpha=0.8,
-        x=185, y=60,
+        x=185, y=80,
         radius=45,
         thickness=10,
         start_angle=180,
@@ -70,22 +69,8 @@ settings_table = {
         bg_alpha=0.8,
         fg_colour=0x656698,
         fg_alpha=0.8,
-        x=125, y=270,
+        x=100, y=165,
         radius=40,
-        thickness=10,
-        start_angle=0,
-        end_angle=240
-    },
-    {
-        name='fs_used_perc',
-        arg='/home/gary/storage',
-        max=100,
-        bg_colour=0x2D3257,
-        bg_alpha=0.6,
-        fg_colour=0x656698,
-        fg_alpha=0.8,
-        x=125, y=270,
-        radius=28,
         thickness=10,
         start_angle=0,
         end_angle=240
@@ -98,8 +83,8 @@ settings_table = {
         bg_alpha=0.4,
         fg_colour=0x656698,
         fg_alpha=0.8,
-        x=125, y=270,
-        radius=16,
+        x=100, y=165,
+        radius=25,
         thickness=10,
         start_angle=0,
         end_angle=240
